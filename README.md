@@ -58,6 +58,8 @@ python3 ./src/mipepid.py ./demo_files/sample_seqs.fasta ./demo_files/MiPepid_res
 
 This will output a file `MiPepid_results_on_sample_seqs.csv` under the same directory (`./demo_files/`).
 
+### Regarding the datasets
+`datasets.tar.gz` contains all major datasets used in the paper. 
 
 <br>
 <br>

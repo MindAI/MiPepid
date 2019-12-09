@@ -46,7 +46,7 @@ The output `.csv` file contains the following columns:
 * `start_at`: the 1-based starting position of this sORF on the original DNA sequence. 
 * `end_at`: the 1-based ending position of this sORF on the original DNA sequence. 
 * `classification`: the predicted class of the sORF, either `coding` or `noncoding`. 
-* `probability`: the probability that this sORF is in the positive class.
+* `probability`: the probability that this sORF is in the assigned class.
 
 ### How to run a demo
 There is a sample DNA sequence file `sample_seqs.fasta` under the directory `./demo_files/`. You can try to run `MiPepid` on this file:
@@ -64,4 +64,4 @@ This will output a file `MiPepid_results_on_sample_seqs.csv` under the same dire
 <br>
 <br>
 
-[*]: Mengmeng Zhu, Michael Gribskov. MiPepid: Micropeptide identification tool using machine learning. Submitted to BMC Bioinformatics.
+[*]: Mengmeng Zhu, Michael Gribskov. MiPepid: Micropeptide identification tool using machine learning. *BMC Bioinformatics* 20, 559 (2019) doi:10.1186/s12859-019-3033-9

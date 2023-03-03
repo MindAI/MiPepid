@@ -1,6 +1,7 @@
 import numpy as np
 import pickle
 import pandas as pd
+import joblib
 
 class kmer_featurization:
 
@@ -76,8 +77,8 @@ def predict(logr, X, threshold):
 
 def load_model(model_fname = './src/model/model.pkl'):
   f = open(model_fname, 'rb')
-  logr = pickle.load(f)
-  threshold = pickle.load(f)
+  logr = joblib.load(f)
+  threshold = joblib.load(f)
   f.close()
   return logr, threshold
 
